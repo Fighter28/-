@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航</title>
+    <link rel="stylesheet" href="76d74868bf480873460adb8aad1df89c">
+  </head>
+  <body>
+    <header class="globalHeader">
+      <form class="searchForm" action="https://www.baidu.com/s" method="GET">
+        <input type="text" name="wd">
+        <button type="submit">搜索</button>
+      </form>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <a href="121f64f6fe119000eba6ceb880a09cb8">
+            <div class="site">
+              <div class="logo">A</div>
+              <div class="link">acfun.cn</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="6ca1426073f9983ba3d50d4c0bb48df9">
+            <div class="site">
+              <div class="logo"></div>
+              <div class="link">bilibili.com</div>
+            </div>
+          </a>
+        </li>
+        <li class="last">
+          <div class="addButton">
+            <div class="icon-wrapper"></div>
+            <div class="text">创建一个新的网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="67e2e1d839de85b19f58d77aecf7b303"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+const $siteList=$('.siteList')
+const $lastLi=$siteList.find(li.last)
+window.hashMap=[{
+    logo:'A',url:'https://www.acfun.cn'
+},
+{
+    logo:'B',url:'https://www.bilibili.com'
+}]
+const removal=(url)=>{
+return url.replace('http://','').replace('https://',"").replace("www.","").replace("/\/.*/","")
+}
+const render=()=>{
+    $siteList.find('li:not(.last)').remove
+    hashMap.forEach((node,index)=>{
+        const $li=(` <li>
+        <div class="site">
+          <div class="logo">${node.logo}</div>
+          <div class="link">${removal(node.url)}</div>
+          
+        </div>
+      </li>`)
+    })
+}
+$('addButton')
+.on('click',()=>{
+    let url=prompt("请输入需要添加的网址")
+    if(url.indexOf('http')!==0){
+        url='https://'+url
+    }
+    hashMa
+})

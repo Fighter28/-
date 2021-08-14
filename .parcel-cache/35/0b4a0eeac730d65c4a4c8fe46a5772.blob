@@ -1,0 +1,11 @@
+window.hashMap=[{
+    
+}]
+$('addButton')
+.on('click',()=>{
+    let url=prompt("请输入需要添加的网址")
+    if(url.indexOf('http')!==0){
+        url='https://'+url
+    }
+    hashMa
+})

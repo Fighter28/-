@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航</title>
+    <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+    <style>.icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+</style>
+  </head>
+  <body>
+    <header class="globalHeader">
+      <form class="searchForm" action="https://www.baidu.com/s" method="GET">
+        <input type="text" name="wd">
+        <button type="submit">搜索</button>
+      </form>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li class="last">
+          <div class="addButton">
+            <div class="icon-wrapper">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-add"></use>
+              </svg>
+            </div>
+            <div class="text">创建一个新的网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer>资料来源：饥人谷&copy</footer>
+    <script src="//at.alicdn.com/t/font_2744678_7nijy5bq8vg.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+  </body>
+</html>
