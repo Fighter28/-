@@ -80,8 +80,7 @@ body {
   }
 }
 .siteList .site {
-  width: 48px;
-  height: 48px;
+  width: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,26 +93,22 @@ body {
   cursor: pointer;
 }
 .siteList .site > .logo {
-  width: 24px;
-  height: 24px;
+  width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 64px;
   text-transform: uppercase;
-  width: 100%;
-  border: 1px solid red;
-  background: #eee;
 }
 .siteList .site > .link {
   font-size: 14px;
   margin-top: 4px;
-  color: white;
 }
 .siteList .site > .close {
   position: absolute;
-  right: 10px;
-  top: 5px;
+  right: 0px;
+  top: 0px;
   display: none;
   cursor: default;
 }
@@ -131,8 +126,8 @@ body {
   padding: 20px 0;
 }
 .siteList .addButton .icon {
-  width: 24px;
-  height: 24px;
+  width: 56px;
+  height: 56px;
 }
 .siteList .addButton .text {
   font-size: 14px;

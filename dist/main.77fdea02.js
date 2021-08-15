@@ -106,9 +106,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"main.js":[function(require,module,exports) {
 var $siteList = $('.siteList');
 var $lastLi = $siteList.find('li.last');
-var x = localStorage.getItem('x');
-var xObject = JSON.parse(x);
-var hashMap = xObject || [{ logo: 'A', url: 'https://www.acfun.cn' }, { logo: 'B', url: 'https://www.bilibili.com' }];
+var PageMemory = localStorage.getItem('DATA');
+var PageObject = JSON.parse(PageMemory);
+var hashMap = PageObject || [{ logo: 'A', url: 'https://www.acfun.cn' }, { logo: 'B', url: 'https://www.bilibili.com' }];
 var removal = function removal(url) {
     return url.replace('http://', '').replace('https://', "").replace("www.", "").replace(/\/.*/, "");
 };
@@ -141,7 +141,7 @@ $('.addButton').on('click', function () {
 });
 window.onbeforeunload = function () {
     var string = JSON.stringify(hashMap);
-    localStorage.setItem('x', string);
+    localStorage.setItem('DATA', string);
 };
 $(document).on('keypress', function (e) {
     var key = e.key;
@@ -181,7 +181,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63081' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58748' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
